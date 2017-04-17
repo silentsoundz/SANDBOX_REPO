@@ -19,7 +19,7 @@ describe( 'makeChange()', function(){
     })
   })
 
-  it.only( 'returns correct change', function(){
+  it( 'returns correct change', function(){
     expect( makeChange({ price: 100, amountGiven: 141 })).to.deep.equal({
       quarters: 1,
       dimes: 1,
