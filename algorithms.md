@@ -112,14 +112,14 @@ setIntersection(a, b)
 // => [2, 4]
 ```
 
-#### setCompliment
+#### setComplement
 
-Return the compliment of two sets.
+Return the complement of two sets.
 
 ```javascript
 const a = [1, 2, 3, 4]
 const b = [2, 4, 6, 8]
-setCompliment(a, b)
+setComplement(a, b)
 // => [6, 8]
 ```
 
