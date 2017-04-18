@@ -34,19 +34,46 @@ _However_, that doesn't mean that they have no learning value. They are still us
 
 ## Specifications
 
-- [ ] Artifact produced is a fork of the [core-algorithms][core-algorithms] repo.
-- [ ] Can run all tests with `npm test`.
-- [ ] All tests are passing.
-- [ ] For each algorithm in the [algorithms list][algorithms-list], there exists:
-  - [ ] a test file with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-  - [ ] an implementation file with a correct implementation of the algorithm.
-- [ ] Repository includes a README file with basic installation and setup instructions.
-- [ ] All dependencies are properly declared in `package.json`.
-- [ ] All major features are added via pull requests with a clear description and concise commit messages.
+
+- [x] Artifact produced is a fork of the [core-algorithms][core-algorithms] repo.
+- [x] Can run all tests with `npm test`.
+- [x] `makeChange()` algorithm is correctly implemented.
+- [x] Tests for `makeChange()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `fizzBuzz()` algorithm is correctly implemented.
+- [ ] Tests for `fizzBuzz()` exist.
+- [ ] `isPalindrome()` algorithm is correctly implemented.
+- [ ] Tests for `isPalindrome()` exist with at least 2 unit tests using valid inputs.
+- [ ] `factorial()` algorithm is correctly implemented.
+- [ ] Tests for `factorial()` exist with at least 2 unit tests using valid inputs.
+- [ ] `fibonacci()` algorithm is correctly implemented.
+- [ ] Tests for `fibonacci()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `collatzConjecture()` algorithm is correctly implemented.
+- [ ] Tests for `collatzConjecture()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `setUnion()` algorithm is correctly implemented.
+- [ ] Tests for `setUnion()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `setIntersection()` algorithm is correctly implemented.
+- [ ] Tests for `setIntersection()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `setComplement()` algorithm is correctly implemented.
+- [ ] Tests for `setComplement()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `setSymmetricDifference()` algorithm is correctly implemented.
+- [ ] Tests for `setSymmetricDifference()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `binarySearch()` algorithm is correctly implemented.
+- [ ] Tests for `binarySearch()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `bubbleSort()` algorithm is correctly implemented.
+- [ ] Tests for `bubbleSort()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `mergeSort()` algorithm is correctly implemented.
+- [ ] Tests for `mergeSort()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `closestPair()` algorithm is correctly implemented.
+- [ ] Tests for `closestPair()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `isConnectedGraph()` algorithm is correctly implemented.
+- [ ] Tests for `isConnectedGraph()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [x] Repository includes a README file with basic installation and setup instructions.
+- [x] All dependencies are properly declared in `package.json`.
+- [x] All major features are added via pull requests with a clear description and concise commit messages.
 - [ ] Code uses a linter and there are no linting errors.
 - [ ] Variables, functions, files, etc. have appropriate and meaningful names.
 - [ ] Functions are small and serve a single purpose.
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+- [x] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ### Stretch
 
