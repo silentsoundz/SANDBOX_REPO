@@ -20,7 +20,6 @@ describe( 'fizzBuzz()', function(){
       'Fizz', 82, 83, 'Fizz', 'Buzz', 86, 'Fizz', 88, 89, 'FizzBuzz',
       91, 92, 'Fizz', 94, 'Buzz', 'Fizz', 97, 98, 'Fizz', 'Buzz'
     ]
-
-    expect( fizzBuzz()).to.equal( fizzedBuzzedArray )
+    expect( fizzBuzz()).to.eql( fizzedBuzzedArray )
   })
 })

@@ -11,22 +11,16 @@ function fizzBuzz() {
     81, 82, 83, 84, 85, 86, 87, 88, 89, 90,
     91, 92, 93, 94, 95, 96, 97, 98, 99, 100
   ]
+  for ( var index = 0; index < numbersArray.length; index++ ) {
+    if ( numbersArray[index] % 3 === 0 && numbersArray[index] % 5 === 0 ) {
+      numbersArray[index] = 'FizzBuzz'
+    } else if ( numbersArray[index] % 3 === 0 ) {
+      numbersArray[index] = 'Fizz'
+    } else if ( numbersArray[index] % 5 === 0 ) {
+      numbersArray[index] = 'Buzz'
+    }
+  }
+  return numbersArray
 }
 
-//filter
-//forEach
-
 module.exports = fizzBuzz
-
-// #### fizzBuzz
-//
-// Return an array of numbers from 1 to 100.
-//
-// For multiples of three, use the string `Fizz` instead of the number and for multiples of five replace with `Buzz`.
-//
-// For numbers which are multiples of both three and five replace with `FizzBuzz`.
-//
-// ```javascript
-// fizzBuzz()
-// // => [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'FizzBuzz', ...]
-// ```
