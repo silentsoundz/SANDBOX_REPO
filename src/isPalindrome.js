@@ -1,7 +1,7 @@
 function isPalindrome(str) {
-  var regex = /[^A-Za-z]/g
-  var forwardStr = str.toLowerCase().replace(regex, '')
-  var backwardsStr = forwardStr.split('').reverse().join('')
+  const regex = /[^A-Za-z]/g
+  const forwardStr = str.toLowerCase().replace(regex, '')
+  const backwardsStr = forwardStr.split('').reverse().join('')
 
   return forwardStr === backwardsStr
 }
