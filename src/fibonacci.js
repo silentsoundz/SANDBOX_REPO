@@ -2,7 +2,7 @@ function fibonacci( num ) {
   var result = [0]
 
   if ( typeof num !== 'number' ) {
-    return 'Your not a number'
+    return 'You\'re not a number'
   }
   for ( var index = 0; index < num - 1; index++ ) {
     if ( result.length === 1 ) {
