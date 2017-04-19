@@ -14,6 +14,6 @@ describe( 'fibonacci()', function(){
     expect( fibonacci(15)).to.eql([0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377])
   })
   it( 'Returns an array of Fibonacci numbers to the _nth_ position.', function(){
-    expect( fibonacci('I want to be a number')).to.equal('Your not a number')
+    expect( fibonacci('I want to be a number')).to.equal('You\'re not a number')
   })
 })
