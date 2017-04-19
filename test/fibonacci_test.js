@@ -8,10 +8,10 @@ describe( 'fibonacci()', function(){
   })
 
   it( 'Returns an array of Fibonacci numbers to the _nth_ position.', function(){
-    expect( fibonacci(10)).to.equal([0, 1, 1, 2, 3, 5, 8, 13, 21, 34])
+    expect( fibonacci(10)).to.eql([0, 1, 1, 2, 3, 5, 8, 13, 21, 34])
   })
   it( 'Returns an array of Fibonacci numbers to the _nth_ position.', function(){
-    expect( fibonacci(15)).to.equal([0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377])
+    expect( fibonacci(15)).to.eql([0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377])
   })
   it( 'Returns an array of Fibonacci numbers to the _nth_ position.', function(){
     expect( fibonacci('I want to be a number')).to.equal('Your not a number')

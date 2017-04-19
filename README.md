@@ -43,10 +43,10 @@ _However_, that doesn't mean that they have no learning value. They are still us
 - [x] Tests for `fizzBuzz()` exist.
 - [x] `isPalindrome()` algorithm is correctly implemented.
 - [x] Tests for `isPalindrome()` exist with at least 2 unit tests using valid inputs.
-- [ ] `factorial()` algorithm is correctly implemented.
-- [ ] Tests for `factorial()` exist with at least 2 unit tests using valid inputs.
-- [ ] `fibonacci()` algorithm is correctly implemented.
-- [ ] Tests for `fibonacci()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [x] `factorial()` algorithm is correctly implemented.
+- [x] Tests for `factorial()` exist with at least 2 unit tests using valid inputs.
+- [x] `fibonacci()` algorithm is correctly implemented.
+- [x] Tests for `fibonacci()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
 - [ ] `collatzConjecture()` algorithm is correctly implemented.
 - [ ] Tests for `collatzConjecture()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
 - [ ] `setUnion()` algorithm is correctly implemented.
