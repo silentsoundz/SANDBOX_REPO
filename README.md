@@ -51,8 +51,8 @@ _However_, that doesn't mean that they have no learning value. They are still us
 - [x] Tests for `collatzConjecture()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
 - [ ] `setUnion()` algorithm is correctly implemented.
 - [ ] Tests for `setUnion()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `setIntersection()` algorithm is correctly implemented.
-- [ ] Tests for `setIntersection()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [x] `setIntersection()` algorithm is correctly implemented.
+- [x] Tests for `setIntersection()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
 - [ ] `setComplement()` algorithm is correctly implemented.
 - [ ] Tests for `setComplement()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
 - [ ] `setSymmetricDifference()` algorithm is correctly implemented.
