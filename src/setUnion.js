@@ -1,3 +1,5 @@
+var mergeSort = require( './mergeSort')
+
 function setUnion( array1, array2 ) {
 var resultArray = array1
 
@@ -12,9 +14,7 @@ var resultArray = array1
       }
     }
   }
-  return resultArray.concat(array2).sort()
+  return mergeSort(resultArray.concat(array2))
 }
-
-console.log(setUnion([1, 2, 3, 4], [2, 4, 6, 8]));
 
 module.exports = setUnion
