@@ -19,14 +19,3 @@ describe( 'bubbleSort()', function(){
     expect( bubbleSort( 1, 2 )).to.eql('This is not an array, fool')
   })
 })
-
-
-
-  // #### bubbleSort
-  //
-  // Sort an array of numbers using the **bubble sort** algorithm.
-  //
-  // ```javascript
-  // bubbleSort([10, 2, 7, 5, 8, 3, 6, 1, 4, 9])
-  // // => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-  // ```
