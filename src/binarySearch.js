@@ -1,23 +1,28 @@
-function binarySearch( arr, number ) {
-  var midpoint = Math.floor( arr.length/2 - 1 )
+function binarySearch( array, number ) {
   var minIndex = 0
-  var maxIndex = arr.length - 1
+  var maxIndex = array.length - 1
 
-  if ( !Array.isArray( arr ) ) {
+  function calculateMidpoint( min, max ) {
+    return Math.floor(( minIndex + maxIndex) / 2 )
+  }
+
+  var midpoint = calculateMidpoint( minIndex, maxIndex )
+
+  if ( !Array.isArray( array ) ) {
       return 'This is not an array, fool'
   }
   while ( minIndex !== maxIndex ) {
-    if( arr[midpoint] === number ) {
+    if( array[midpoint] === number ) {
       return midpoint
-    } else if ( arr[midpoint] < number ) {
+    } else if ( array[midpoint] < number ) {
       minIndex = midpoint + 1
-      midpoint = Math.floor((minIndex + maxIndex)/2)
-    } else if ( arr[midpoint] > number ) {
+      midpoint = calculateMidpoint( minIndex, maxIndex )
+    } else if ( array[midpoint] > number ) {
       maxIndex = midpoint - 1
-      midpoint = Math.floor((minIndex + maxIndex)/2)
+      midpoint = calculateMidpoint( minIndex, maxIndex )
     }
   }
-  if( arr[midpoint] === number ) {
+  if( array[midpoint] === number ) {
     return midpoint
   }
   return -1
