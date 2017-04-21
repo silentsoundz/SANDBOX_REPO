@@ -49,8 +49,8 @@ _However_, that doesn't mean that they have no learning value. They are still us
 - [x] Tests for `fibonacci()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
 - [x] `collatzConjecture()` algorithm is correctly implemented.
 - [x] Tests for `collatzConjecture()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `setUnion()` algorithm is correctly implemented.
-- [ ] Tests for `setUnion()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [x] `setUnion()` algorithm is correctly implemented.
+- [x] Tests for `setUnion()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
 - [x] `setIntersection()` algorithm is correctly implemented.
 - [x] Tests for `setIntersection()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
 - [x] `setComplement()` algorithm is correctly implemented.
@@ -61,8 +61,8 @@ _However_, that doesn't mean that they have no learning value. They are still us
 - [x] Tests for `binarySearch()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
 - [x] `bubbleSort()` algorithm is correctly implemented.
 - [x] Tests for `bubbleSort()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [ ] `mergeSort()` algorithm is correctly implemented.
-- [ ] Tests for `mergeSort()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [x] `mergeSort()` algorithm is correctly implemented.
+- [x] Tests for `mergeSort()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
 - [ ] `closestPair()` algorithm is correctly implemented.
 - [ ] Tests for `closestPair()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
 - [ ] `isConnectedGraph()` algorithm is correctly implemented.
@@ -70,9 +70,9 @@ _However_, that doesn't mean that they have no learning value. They are still us
 - [x] Repository includes a README file with basic installation and setup instructions.
 - [x] All dependencies are properly declared in `package.json`.
 - [x] All major features are added via pull requests with a clear description and concise commit messages.
-- [ ] Code uses a linter and there are no linting errors.
-- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
-- [ ] Functions are small and serve a single purpose.
+- [x] Code uses a linter and there are no linting errors.
+- [x] Variables, functions, files, etc. have appropriate and meaningful names.
+- [x] Functions are small and serve a single purpose.
 - [x] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ### Stretch

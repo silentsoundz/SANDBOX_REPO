@@ -12,7 +12,7 @@ describe( 'setUnion()', function(){
   })
 
   it( 'Returns the union of two sets.', function(){
-    expect( setUnion([1, 2, 3, 4, 40],[2, ,4, 6, 8, 60] )).to.eql([1, 2, 3, 4, 6, 8, 40, 60])
+    expect( setUnion([1, 2, 3, 4, 40],[2,  4, 6, 8, 60] )).to.eql([1, 2, 3, 4, 6, 8, 40, 60])
   })
 
   it( 'only operates on two arrays.', function(){
