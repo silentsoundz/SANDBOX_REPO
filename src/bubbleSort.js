@@ -1,20 +1,23 @@
 function bubbleSort ( arr ) {
 
+  if ( !Array.isArray( arr ) ) {
+    return 'This is not an array, fool'
+  }
+
   for ( var index = 0; index < arr.length; index++ ) {
     if ( arr[index + 1] < arr[index] ) {
       var greaterNumber = arr[index]
       arr[index] = arr[index + 1]
-      arr[index + 1] = greaterNumber 
+      arr[index + 1] = greaterNumber
     }
   }
   //loop through the array and compare the number at the index we are at with the number at the next index
   //if the number at the next index is less than the current index, swap the two numbers and keep going
 
-  return arr
-
+  return bubbleSort( arr )
 }
 
-
+console.log(bubbleSort([1, 8, 4, 6, 2, 3]))
 module.exports = bubbleSort
 // #### bubbleSort
 //

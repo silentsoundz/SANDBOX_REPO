@@ -12,7 +12,7 @@ describe( 'bubbleSort()', function(){
   })
 
   it( 'Sorts an array of numbers using the bubble sort algorithm.', function(){
-    expect( bubbleSort([1, 2, 3, 4, 40],[2, ,4, 6, 8, 60] )).to.eql([1, 2, 3, 4, 6, 8, 40, 60])
+    expect( bubbleSort([66, 40, 3, 4])).to.eql([3, 4, 40, 66])
   })
 
   it( 'only operates on an array.', function(){
