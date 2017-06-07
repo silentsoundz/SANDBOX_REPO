@@ -61,8 +61,8 @@ _However_, that doesn't mean that they have no learning value. They are still us
 - [x] Tests for `binarySearch()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
 - [x] `bubbleSort()` algorithm is correctly implemented.
 - [x] Tests for `bubbleSort()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
-- [x] `mergeSort()` algorithm is correctly implemented.
-- [x] Tests for `mergeSort()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
+- [ ] `mergeSort()` algorithm is correctly implemented.
+- [ ] Tests for `mergeSort()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
 - [ ] `closestPair()` algorithm is correctly implemented.
 - [ ] Tests for `closestPair()` exist with at least 2 unit tests using valid inputs, and at least 1 unit test using invalid inputs.
 - [ ] `isConnectedGraph()` algorithm is correctly implemented.
